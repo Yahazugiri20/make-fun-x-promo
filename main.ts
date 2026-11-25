@@ -187,5 +187,7 @@ const png = Buffer.concat([
   chunk('IEND', Buffer.alloc(0)),
 ]);
 
-writeFileSync(new URL('./promo.png', import.meta.url), png);
+const OUT = process.env.MAKEFUN_OUTPUT_DIR || new URL('./', import.meta.url).pathname;
+
+writeFileSync(new URL('promo.png', `file://${OUT.replace(/\/?$/, '/')}`), png);
 console.log('wrote promo.png', W + 'x' + H, png.length, 'bytes');
