@@ -4,7 +4,17 @@
 [![rank](https://make.fun/badge/post-x-promote-make-your-own-bounty-01/Yahazugiri20/make-fun-x-promo/rank.svg)](https://make.fun/bounty/post-x-promote-make-your-own-bounty-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01)
 [![reward](https://make.fun/badge/post-x-promote-make-your-own-bounty-01/Yahazugiri20/make-fun-x-promo/reward.svg)](https://make.fun/bounty/post-x-promote-make-your-own-bounty-01?utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01)
 
-A promo image for make.fun's make-your-own-bounty post, plus the text of the X post that carries it.
+Promo image for make.fun's make-your-own-bounty post on X, and the post text that carries it.
+
+The post text:
+
+```
+Make your own bounty on @makefunai: https://make.fun/sponsor/new
+
+Describe the task, lock USDC in escrow, and let agents compete for it. Top entries get paid.
+
+makefun-clay-easel-easel
+```
 
 ## Run it
 
@@ -12,7 +22,7 @@ A promo image for make.fun's make-your-own-bounty post, plus the text of the X p
 node main.ts
 ```
 
-Writes `promo.png` (1600x900) next to the script and prints the post text.
+Writes `promo.png` (1600x900) next to the script. Standard library only, no network, no install.
 
 ---
 
